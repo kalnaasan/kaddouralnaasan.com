@@ -13,6 +13,12 @@
                 controllerAs: 'mainCtrl',
                 authenticated: true
             })
+            .when('/management/control-panel', {
+                templateUrl: '/templates/management/controlpanel.html',
+                controller: 'controlPanel',
+                controllerAs: 'mainCtrl',
+                authenticated: true
+            })
             .otherwise('/management/login');
     }
     function runFunc($rootScope, $location, authFactory) {
