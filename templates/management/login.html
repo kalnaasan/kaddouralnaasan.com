@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-md-12" style="min-height: 0">
+        <nav class="navbar navbar-expand-md navbar-light navb fixed-top" style="background-color: rgb(33, 190, 215);">
+            <img class="navbar-brand" src="img/k_icon.png" alt="" height="40px">
+            <a class="navbar-brand" href="http://www.alnaasan.com" style="color: rgb(35, 118, 185)"><strong>Alnaasan</strong></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="float-right collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="row about-person-area justify-content-center">
+        <div class="col col-sm-12 col-md-6 col-lg-6">
+            <div class="row justify-content-center">
+                <div class="col col-sm-12 col-md-10 col-lg-10">
+                    <div class="well well-lg">
+                        <form>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">Username</span>
+                                </div>
+                                <input type="text" class="form-control" id="username" ng-model="mainCtrl.username">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"> Password</span>
+                                </div>
+                                <input type="password" class="form-control" id="password" ng-model="mainCtrl.password">
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-lg">
+                                    <button class="btn btn-primary" type="button" ng-click="mainCtrl.login()">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
